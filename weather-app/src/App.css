@@ -1,0 +1,114 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* App Background */
+.app {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #1e3c72, #2a5298);
+  color: white;
+}
+
+/* Weather Container */
+.weather-container {
+  width: 400px;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 30px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+}
+
+/* Title */
+.title {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+/* Search Box */
+.search-box {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.search-input {
+  width: 70%;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  outline: none;
+}
+
+.search-button {
+  margin-left: 10px;
+  padding: 10px 15px;
+  border: none;
+  background: #ff4757;
+  color: white;
+  font-size: 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.search-button:hover {
+  background: #ff6b81;
+}
+
+/* Weather Card */
+.weather-card {
+  margin-top: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(5px);
+}
+
+.weather-card h2 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.weather-card h3 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.description {
+  font-size: 16px;
+  font-weight: 300;
+  margin-top: 5px;
+}
+
+/* Weather Icon */
+.weather-icon {
+  margin-top: 15px;
+}
+
+/* Error & Loading */
+.error-message {
+  color: #ff6b81;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.loading {
+  color: white;
+  font-size: 16px;
+  font-style: italic;
+}
